@@ -9,5 +9,8 @@ public class Principal {
         op.concatenaString();
         op.concatenaBuffer();
         
+        String frase = "Olá turma do terceiro semestre tudo bem";
+        op.divideFrase(frase);
+        
     }
 }

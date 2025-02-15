@@ -35,4 +35,19 @@ public class OperacoesController {
             tempoTotal = tempoTotal / Math.pow(10, 9);
             System.out.println("Buffer ==>" +tempoTotal+"s."); 
         }
+
+        //Recebe uma frase, divide em palavras, imprime cada palavra
+        public void divideFrase(String frase){
+            String[] vetorPalavra = frase.split(" ");
+            //cria vetores de acordo com a quantida de palavras da frase
+            //int length = vetorPalavras.length;
+            //inves de vetorPalabra.length seria length, da linha de cima, mas n vale a pena
+            //melhor um foreach
+            //for (int i = 0; i < vetorPalavra.length; i++){}
+
+            //foreach = for (TipoDado var : vetor)
+            for (String string : vetorPalavra) {
+                System.out.println(string);
+            }
+        }
 }
