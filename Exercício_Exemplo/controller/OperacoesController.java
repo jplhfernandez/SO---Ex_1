@@ -22,7 +22,7 @@ public class OperacoesController {
             tempoTotal = tempoTotal / Math.pow(10, 9);
             System.out.println("String ==>" +tempoTotal+"s.");
         }
-        
+            
         //Concatena 32768 caracteres, 1 a 1, em uma buffer de String
         public void concatenaBuffer(){
             StringBuffer buffer = new StringBuffer();
